@@ -82,6 +82,11 @@ span {
   text-decoration: none;
 }
 
+.link-list {
+  display: flex;
+  gap: 40px;
+}
+
 .link {
   color: #2e2f42;
   font-size: 16px;
@@ -89,10 +94,10 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: flex;
-  gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
 .link:hover,
 .link:focus {
   color: #404bbf;
@@ -111,9 +116,8 @@ span {
   letter-spacing: 0.02em;
   text-decoration: none;
   display: flex;
+  align-items: center;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .mail-tel :hover,
 .mail-tel :focus {
@@ -295,7 +299,7 @@ span {
   padding-bottom: 100px;
 }
 
-.logo {
+.logo-futer {
   display: inline-block;
   margin-bottom: 16px;
 }
